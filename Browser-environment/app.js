@@ -1,6 +1,12 @@
-const body = document.body;
+
+const btnUpdate = document.getElementById("btn-main");
+
+const headline = document.getElementById("headline");
 
 
-document.body.addEventListener("click", () => {
-   body.innerHTML = '<h1>Hiya boys!</h1>';
+btnUpdate.addEventListener("click", () => {
+    headline.style.border = 'solid 2px red';
 });
+
+
+
